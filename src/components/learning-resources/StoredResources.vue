@@ -1,5 +1,5 @@
 <template>
-    <ul>
+  <ul>
     <learning-resource
       v-for="res in resources"
       :key="res.id"
@@ -15,9 +15,9 @@ import LearningResource from './LearningResource.vue';
 export default {
   props: ['resources'],
   components: {
-    LearningResource
-  }
-}
+    LearningResource,
+  },
+};
 </script>
 
 <style scoped>
